@@ -1,0 +1,7 @@
+POST /links
+request:
+  { "originalUrl": "https://example.com/very/long/path" }
+response (201):
+  { "shortCode": "aZ3dK9", "shortUrl": "https://lnk.sh/aZ3dK9", "createdAt": "..." }
+response (400):
+  { "error": "Invalid URL" }

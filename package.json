@@ -1,0 +1,31 @@
+{
+  "name": "tinyurl",
+  "version": "1.0.0",
+  "description": "A URL shortener built to learn and practice backend engineering fundamentals — API design, system design, and testing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "prisma skills sync || exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pankajtiwarics27/tinyURL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/pankajtiwarics27/tinyURL/issues"
+  },
+  "homepage": "https://github.com/pankajtiwarics27/tinyURL#readme",
+  "dependencies": {
+    "@prisma/client": "^7.10.0",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
+    "express": "^5.3.0",
+    "prisma": "^8.0.0-rc.22",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
